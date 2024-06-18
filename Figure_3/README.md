@@ -1,4 +1,5 @@
-# Figure 3 Analyses
+# DPM: Directional integration and pathway enrichment analysis for multi-omics data 
+## Figure 3. Directional integration of transcriptomics data from functional experiments of HOXA10-AS lncRNA in GBM cells. 
 
 ## Overview
 
