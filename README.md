@@ -1,4 +1,5 @@
-# Source code and input files for the DPM publication 
+# DPM: Directional integration and pathway enrichment analysis for multi-omics data 
+## Source code and input files
 
 This repository contains the source code and most input files required to generate the figures of the manuscript. The materials are organized into sub-directories for each Figure that includes source code and input datasets. 
 
