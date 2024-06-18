@@ -1,4 +1,3 @@
-setwd("oicr/APW2_simulations/data/")
 library(ActivePathways)
 library(ggplot2)
 library(patchwork)
@@ -170,12 +169,3 @@ for (pval_distr in c("uniform_uniform", "signf_signf", "uniform_signf")) {
 save(master_results_table, file = "master_results_table.rsav")
 write.csv(master_results_table, file = "master_results_table.csv")
 system(paste("open master_results_table.csv"))
-
-
-
-
-#dependent  uniform_uniform :  0.9783065
-#independent  uniform_uniform :  -0.0009814493
-#dependent  signf_signf :  0.9771874
-#independent  signf_signf :  0.0001891833
-#independent  uniform_signf :  -0.004741001
