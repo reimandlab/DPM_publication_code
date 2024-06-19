@@ -39,3 +39,15 @@ Rscript 006_dot_plot_panel_h.R
 ```
 
 The Panel D script to create the Kaplan-Meier plots can be found in `000_survival_analysis.R` lines 148 to 160
+
+The source code was developed in R version 4.3.1. The following package version are used:
+
+``` bash
+ggpubr v0.6.0
+survival v3.5-5
+eulerr v7.0.2
+ActivePathways v2.0.3
+dplyr v1.1.2         
+data.table v1.14.8
+ggplot2 v3.4.2
+```

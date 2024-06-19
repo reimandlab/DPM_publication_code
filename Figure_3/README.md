@@ -27,3 +27,13 @@ Rscript 003_enrichment_map_panel_e.R
 Rscript 004_venn_diagram_panel_d.R
 Rscript 005_dot_plot_panel_f.R
 ```
+
+The source code was developed in R version 4.3.1. The following package version are used:
+
+``` bash
+eulerr v7.0.2
+ActivePathways v2.0.3
+dplyr v1.1.2
+data.table v1.14.8
+ggplot2 v3.4.2 
+```

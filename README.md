@@ -10,7 +10,7 @@ Mykhaylo Slobodyanyuk \^, Alexander T. Bahcheli \^, Zoe P. Klein, Masroor Bayati
 
 Nature Communications (2024) (in press; June 2024).
 
-\^ - co-first authors; \@ - correspondence: [juri.reimand\@utoronto.ca](mailto:juri.reimand@utoronto.ca){.email}
+\^ - co-first authors; \@ - correspondence: [juri.reimand\@utoronto.ca](mailto:juri.reimand@utoronto.ca)
 
 The materials are organized into sub-directories for each Figure that includes source code and input datasets. The source code is in R and python. The R package ActivePathways v2.0.3 was used. A Zenodo archive of the R package is available at DOI [10.5281/zenodo.12118089](https://doi.org/10.5281/zenodo.12118089)
 
