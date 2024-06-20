@@ -1,4 +1,3 @@
-# Alec Bahcheli
 # create a venn diagram of the common pathways between the two merging methods
 
 import sys, getopt, time, os, subprocess
@@ -55,16 +54,7 @@ def main():
 
 if __name__ == "__main__":
     # r environment
-    rscript = "~/Rscript"
-
-    # brown_enrichment_file = "/.mounts/labs/reimandlab/private/users/abahcheli/reimand_lab_ab/small_projects_reimand/results/apw2/v2/browns/enriched_pathways.csv"
-    # dpm_enrichment_file = "/.mounts/labs/reimandlab/private/users/abahcheli/reimand_lab_ab/small_projects_reimand/results/apw2/v2/dpm/enriched_pathways.csv"
-
-
-    # figure_script = "/.mounts/labs/reimandlab/private/users/abahcheli/reimand_lab_ab/small_projects_reimand/bin/apw2/006-common_pathways.R"
-    # figure_data_file = "/.mounts/labs/reimandlab/private/users/abahcheli/reimand_lab_ab/small_projects_reimand/results/apw2/v2/common_pathways.tsv"
-    # figure_file = "/.mounts/labs/reimandlab/private/users/abahcheli/reimand_lab_ab/small_projects_reimand/results/apw2/v2/common_pathways.pdf"
-
+    rscript = "Rscript"
 
     try:
         opts, args = getopt.getopt(sys.argv[1:],"",["brown_enrichment_file=", "dpm_enrichment_file=", "figure_script=", "figure_data_file=", "figure_file=", "merged_fdr_file="])
@@ -76,19 +66,24 @@ if __name__ == "__main__":
         # enriched pathways from brown's method
         if opt in ("--brown_enrichment_file"):
             brown_enrichment_file = str(arg)
+            brown_enrichment_file = '~/input_data/intermediate_files/res_brown.csv'
         # enriched pathways from dpm's method
         if opt in ("--dpm_enrichment_file"):
             dpm_enrichment_file = str(arg)
+            dpm_enrichment_file = '~/input_data/intermediate_files/res_dpm.csv'
 
         # figure script
         if opt in ("--figure_script"):
             figure_script = str(arg)
+            figure_script = '~/005b-panel_e-common_pathways_venn_diagram.R'
         # figure data file
         if opt in ("--figure_data_file"):
             figure_data_file = str(arg)
+            figure_data_file = '~/input_data/intermediate_files/figure5_venn_diagrams.tsv'
         # figure file
         if opt in ("--figure_file"):
             figure_file = str(arg)
+            figure_file = '~/figure5_venn_diagrams.pdf'
 
     main()
 

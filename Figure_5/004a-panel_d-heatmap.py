@@ -1,4 +1,3 @@
-# Alec Bahcheli
 # visualize the directional agreements and disagreement between data sources in a heatmap
 
 import sys, getopt, time, os, subprocess
@@ -114,19 +113,7 @@ def main():
 
 if __name__ == "__main__":
     # r environment
-    rscript = "~/Rscript"
-
-    # fc_file = "/.mounts/labs/reimandlab/private/users/abahcheli/reimand_lab_ab/small_projects_reimand/results/apw2/v2/log2_fcs.tsv"
-    # pvalues_file = "/.mounts/labs/reimandlab/private/users/abahcheli/reimand_lab_ab/small_projects_reimand/results/apw2/v2/pvals.tsv"
-
-    # cgc_file = "/.mounts/labs/reimandlab/private/users/abahcheli/cancer_ref/census_20_04_2022.tsv"
-
-    # merged_pval_file = "/.mounts/labs/reimandlab/private/users/abahcheli/reimand_lab_ab/small_projects_reimand/results/apw2/v2/merged_pvals.tsv"
-
-    # figure_script = "/.mounts/labs/reimandlab/private/users/abahcheli/reimand_lab_ab/small_projects_reimand/bin/apw2/003-heatmap.R"
-    # figure_data_file = "/.mounts/labs/reimandlab/private/users/abahcheli/reimand_lab_ab/small_projects_reimand/results/apw2/v2/heatmap_data_001.tsv"
-    # figure_file = "/.mounts/labs/reimandlab/private/users/abahcheli/reimand_lab_ab/small_projects_reimand/results/apw2/v2/heatmap_data_001.pdf"
-
+    rscript = "Rscript"
 
     try:
         opts, args = getopt.getopt(sys.argv[1:],"",["pvalues_file=", "fc_file=", "cgc_file=", "merged_pval_file=", "figure_script=", "figure_data_file=", "figure_file="])
@@ -138,27 +125,34 @@ if __name__ == "__main__":
         # p-values from each data source
         if opt in ("--pvalues_file"):
             pvalues_file = str(arg)
+            pvalues_file = '~/input_data/intermediate_files/figure5_pvals.tsv'
         # FC from each data source
         if opt in ("--fc_file"):
             fc_file = str(arg)
+            fc_file = '~/input_data/intermediate_files/figure5_fcs.tsv'
 
         # cancer gene census (CGC) file
         if opt in ("--cgc_file"):
             cgc_file = str(arg)
+            cgc_file = '~/input_data/cgc_v98_29062023.tsv'
 
         # direcional merged p-values
         if opt in ("--merged_pval_file"):
             merged_pval_file = str(arg)
+            merged_pval_file = '~/input_data/intermediate_files/figure5_merged_pvalues.tsv'
 
         # figure script
         if opt in ("--figure_script"):
             figure_script = str(arg)
+            figure_script = '~/004b-panel_d-heatmap.R'
         # figure data file
         if opt in ("--figure_data_file"):
             figure_data_file = str(arg)
+            figure_data_file = '~/input_data/intermediate_files/figure5_heatmap.tsv'
         # figure file
         if opt in ("--figure_file"):
             figure_file = str(arg)
+            figure_file = '~/figure5_heatmap.pdf'
 
     main()
 

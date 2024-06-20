@@ -1,4 +1,3 @@
-# Alec Bahcheli
 # create dotplots of the contribution of each gene to the pathway
 
 import sys, getopt, time, os, subprocess
@@ -159,25 +158,33 @@ if __name__ == "__main__":
         # original gene set matrix file
         if opt in ("--gmt_file"):
             gmt_file = str(arg)
+            gmt_file = '~/input_data/hsapiens.GO_BP_REACTOME.name.gmt'
         # enriched pathway file
         if opt in ("--pathway_pval_file"):
             pathway_pval_file = str(arg)
+            pathway_pval_file = '~/res_dpm.csv'
+
         # file of p-values
         if opt in ("--pval_file"):
             pval_file = str(arg)
+            pval_file = '~/input_data/intermediate_files/figure5_pvals.tsv'
         # file of fold changes
         if opt in ("--fc_file"):
             fc_file = str(arg)
+            fc_file = '~/input_data/intermediate_files/figure5_fcs.tsv'
 
         # figure script
         if opt in ("--figure_script"):
             figure_script = str(arg)
+            figure_script = '~/007b-panel_g-gene_pathway_dotplots.R'
         # figure data file
         if opt in ("--figure_data_file"):
             figure_data_file = str(arg)
+            figure_data_file = '~/input_data/intermediate_files/figure5_gene_pathway_dotplots.tsv'
         # figure file
         if opt in ("--figure_file"):
             figure_file = str(arg)
+            figure_file = '~/figure5_gene_pathway_dotplots.pdf'
             
     main()
 

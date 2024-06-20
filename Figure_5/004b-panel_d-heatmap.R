@@ -1,4 +1,3 @@
-# Alec Bahcheli
 # visualize the directional agreements and disagreement between data sources in a heatmap
 
 library(optparse)

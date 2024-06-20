@@ -1,4 +1,3 @@
-# Alec Bahcheli
 # visualize a dot-plot comparing KD and OE genes P-values and FC
 
 import sys, getopt, time, os, subprocess
@@ -21,8 +20,12 @@ def main():
     t1 = time.time()
 
     # load each df and merge
-    pval_df = pd.read_csv(p_values_file, sep='\t')
-    fc_df = pd.read_csv(fc_file, sep='\t')
+    pval_df = pd.read_csv(p_values_file)
+    fc_df = pd.read_csv(fc_file)
+
+    # melt dfs
+    pval_df = pd.melt(pval_df, id_vars='gene', var_name='condition', value_name='pvalue')
+    fc_df = pd.melt(fc_df, id_vars='gene', var_name='condition', value_name='logfc')
 
     # merge
     merged_df = pd.merge(pval_df, fc_df, on='gene')
@@ -55,20 +58,25 @@ if __name__ == "__main__":
         # file of pvalues from KD and OE
         if opt in ("--p_values_file"):
             p_values_file = str(arg)
+            p_values_file = '~/input_data/hoxa10_pvals.csv'
         # file of the FCs of each gene in KD and OE
         if opt in ("--fc_file"):
             fc_file = str(arg)
+            fc_file = '~/input_data/hoxa10_fcs.csv'
 
         # script to create figure
         if opt in ("--figure_script"):
             figure_script = str(arg)
+            figure_script = '~/002a-dotplots_panel_c.R'
 
         # file to save figure data
         if opt in ("--figure_data_file"):
             figure_data_file = str(arg)
+            figure_data_file = '~/input_data/dotplots_panel_c_data.tsv'
         # file to save figure
         if opt in ("--figure_file"):
             figure_file = str(arg)
+            figure_file = '~/002-dotplots_panel_c.pdf'
 
     main()
 

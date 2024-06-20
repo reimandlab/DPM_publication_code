@@ -1,4 +1,3 @@
-# Alec Bahcheli
 # create a venn diagram of the common pathways between the two merging methods
 
 library(optparse)

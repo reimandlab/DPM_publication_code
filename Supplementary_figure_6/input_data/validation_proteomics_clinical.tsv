@@ -1,0 +1,55 @@
+Set	TMT	Sample_name	Proteome_ID	sample.type	GPC_subtype	RNA_subtype4	RNA_subtype3	Initial_date	Date_of_death	Last_fu_date	Expired(dead=1)	OS_from_initial_to_death_or_last_fu	PFS	Gender	Age	Longitudinal_Pair	Initial_or_Recurred_sample	Grade	Pathology	TMZ_treatment	Radiotherapy	Extra_treatment	Features	PIK3R1_mut	PIK3CA_mut	PTEN_mut	RB1_mut	TP53_mut	EGFR_mut	IDH1_mut	NF1_mut	PIK3CA_mut_hotspot	PTEN_mut_hotspot	TP53_mut_hotspot	EGFR_mut_hotspot	IDH1_mut_hotspot	1p/19q codel	EGFRvIII	Tumor.purity_by_ESTIMATE
+2	131	1-1	500T	tumor	1	NEURAL	Proneural_3	2014-06-12		2016-03-15	1	650	212	F	52	58	I	IV	Glioblastoma	O	O	X				missense(G165R)					frameshift(696-)		missense(G165R)						0.847739792
+6	131	1-2	718T1	tumor	2	PRONEURAL	Classical_3	2014-06-12		2016-03-15	1	650	62	F	52	58	R	IV	Glioblastoma	O	O	Irinotecan/Bevacizumb,Everlolimus	5-ALA(+)			missense(G165R)							missense(G165R)						0.901335004
+6	127	2-1	526T	tumor	1	MESENCHYMAL	Classical_3	2014-07-21	2015-06-10	2015-06-01	1	324	144	F	57	59	I	IV	Glioblastoma	O	O	X																	0.496804898
+4	130	2-2	682T	tumor	2	CLASSICAL	Mesenchymal_3	2014-07-21	2015-06-10	2015-06-01	1	324	95	F	57	59	R	IV	Glioblastoma	O	O	X				frameshift(317-)													0.756459337
+8	129	3-1	930T1	tumor	2	MESENCHYMAL	Classical_3	2015-12-15		2017-01-23	0	405	381	F	63		I	IV	Glioblastoma	O	O	X	5-ALA(+)					missense(P278L)	missense(A298T);missense(G428C);missense(R836S);missense(H893N);missense(P1088Q)					missense(P278L)	missense(A289T);missense(R836S);missense(H893N)				0.67826798
+10	128	3-2	930T2	tumor	2	CLASSICAL	Classical_3	2015-12-15		2017-01-23	0	405	381	F	63		I	IV	Glioblastoma	O	O	X	5-ALA(++)					missense(P278L)	missense(A289T);missense(P596Q);missense(P644Q);missense(H893N);missense(P919H);missense(P1088Q)		missense(P1421Q);missense(H1647N)			missense(P278L)	missense(A289T);missense(H893N)				0.784737726
+11	131	3-3	930T5	tumor	2	NEURAL	Proneural_3	2015-12-15		2017-01-23	0	405	381	F	63		I	IV	Glioblastoma	O	O	X	5-ALA(-)					missense(P278L)	missense(A289T)					missense((P278L)	missense(A289T)				0.965270118
+1	129	4-1	693T1	tumor	2	CLASSICAL	Classical_3	2013-10-01	2015-10-29	2015-10-16	1	758	67	M	37		R	III	Gliomatosis_cerebri	O	O	PCV	locally adjacent																0.877735007
+6	130	4-2	693T2	tumor	2	CLASSICAL	Classical_3	2013-10-01	2015-10-29	2015-10-16	1	758	67	M	37		R	III	Gliomatosis_cerebri	O	O	PCV	locally adjacent																0.822608555
+5	128	4-3	693T4	tumor	2	CLASSICAL	Classical_3	2013-10-01	2015-10-29	2015-10-16	1	758	67	M	37		R	III	Gliomatosis_cerebri	O	O	PCV	locally adjacent																0.890948992
+5	127	5-1	664T1	tumor	2	PRONEURAL	Proneural_3	2014-12-10		2017-02-01	1	885	386	M	53		I	IV	Glioblastoma	O	O	Irinotecan,Bevacizumab	5-ALA(+)					missense(H214R)						missense(H214R)					0.766877228
+6	129	5-2	664T2	tumor	2	PRONEURAL	Proneural_3	2014-12-10		2017-02-01	1	885	386	M	53		I	IV	Glioblastoma	O	O	Irinotecan,Bevacizumab	5-ALA(-)					missense(H214R)						missense(H214R)					0.94169323
+9	127	6-1	559T2	tumor	1	MESENCHYMAL	Mesenchymal_3	2014-08-18	2015-07-17	2015-06-03	1	333	68	M	49	61	I	IV	Glioblastoma	O	O	X			missense(G364R)														0.73485271
+2	127	6-2	629T	tumor	1	MESENCHYMAL	Mesenchymal_3	2014-08-18	2015-07-17	2015-06-03	1	333	148	M	49	61	R	IV	Glioblastoma	O	O	X			missense(G364R)														0.608842254
+9	130	7-1	841T4	tumor	1	MESENCHYMAL	Mesenchymal_3	2015-09-04		2015-12-18	1	228	53	M	29		I	IV	Glioblastoma	O	O	X	main				stop_gained(K65*)	missense(R267Q)											0.808223772
+7	129	7-2	841T5	tumor	1	MESENCHYMAL	Mesenchymal_3	2015-09-04		2015-12-18	1	228	53	M	29		I	IV	Glioblastoma	O	O	X	margin				stop_gained(K65*)	missense(R267Q)			missense(R1870Q)								0.775902406
+9	128	8-1	929T1	tumor	1	MESENCHYMAL	Classical_3	2014-10-09		2016-01-19	1	578	123	M	50	65	R	IV	Glioblastoma, recurrent chemoradiation change	O	O	X	locally adjacent					missense(S241P)						missense(S241P)					0.707752582
+11	130	8-2	929T3	tumor	2	NEURAL	Classical_3	2014-10-09		2016-01-19	1	578	123	M	50	65	R	IV	Glioblastoma, recurrent chemoradiation change	O	O	X	locally adjacent																0.849337674
+10	129	8-3	929T4	tumor	2	MESENCHYMAL	Classical_3	2014-10-09		2016-01-19	1	578	123	M	50	65	R	IV	Glioblastoma, recurrent chemoradiation change	O	O	X	locally adjacent																0.705181541
+3	130	8-4	605T	tumor	1	NEURAL	Proneural_3	2014-10-09		2016-01-19	1	578	376	M	49	65	I	IV	Glioblastoma	O	O	X																	0.690328166
+10	130	9	487T	tumor	2	NEURAL	Proneural_3	2009-11-18		2017-07-21	0	2802	1136	F	31		R	III	Anaplastic_oligodendroglioma	O	O	X						missense(R248W)	frameshift(905-)	frameshift(177-);missense(R132H)	frameshift(1420-)			missense(R248W)		missense(R132H)			0.944622631
+4	127	10	665T1	tumor	1	CLASSICAL	Classical_3	2014-12-09	2015-06-02	2015-01-02	1	175	169	M	62		I	IV	Glioblastoma	O	O	X																EGFRvIII	0.788433021
+4	131	11	677T	tumor	1	CLASSICAL	Classical_3	2014-12-28		2015-11-28	1	463	258	M	74		I	IV	Glioblastoma	O	O	X			missense(E365K)				missense(A289V)						missense(A289V)			EGFRvIII	0.856520493
+1	128	12	698T	tumor	1	NEURAL	Proneural_3	2014-12-30	2015-10-01	2015-09-01	1	275	253	F	77		I	IV	Glioblastoma	O	O	X				missense(Q171H)		missense(C176G)					missense(Q171H)	missense(C176G)					0.732140854
+3	127	13	699T	tumor	1	CLASSICAL	Classical_3	2015-01-13		2015-08-04	1	390	92	F	68		I	IV	Glioblastoma	O	O	X				frameshift(299-)												EGFRvIII	0.885732475
+5	129	14	700T	tumor	2	PRONEURAL	Proneural_3	2009-03-09	2015-05-04	2015-04-29	1	2247	28	F	45	55	R	IV	Glioblastoma	O	O	X		frameshift(264-);stop_gained(R386*)			missense(M233T)	frameshift(182-)		missense(R132H)						missense(R132H)			0.970284586
+2	130	15	709T1	tumor	1	CLASSICAL	Classical_3	2015-01-13	2016-05-01	2016-02-03	1	474	275	F	46		I	IV	Glioblastoma	O	O	X			missense(M1043I)							missense(M1043I)						EGFRvIII	0.78988005
+4	128	16	729T	tumor	1	CLASSICAL	Classical_3	2015-02-10		2016-02-05	1	368	153	M	58		I	IV	Glioblastoma	O	O	X						inframe_deletion(NK131K)										EGFRvIII	0.827932807
+3	129	17	756T	tumor	2	PRONEURAL	Proneural_3	2015-03-02		2016-08-30	1	551	502	F	65		I	IV	Glioblastoma	O	O	X				missense(K342N)		missense(L257P);splice_donor											0.934085633
+1	131	18	757T2	tumor	2	PRONEURAL	Proneural_3	2015-02-11		2017-12-05	0	1028	697	F	55		I	III	Anaplastic_oligodendroglioma	X	O	PCV								missense(R132H)						missense(R132H)	1p/19 codel		0.933267634
+4	129	19	758T	tumor	2	PRONEURAL	Proneural_3	2015-03-08		2017-11-10	0	978	871	F	50		I	III	Anaplastic_oligodendroglioma	X	O	X								missense(R132H)						missense(R132H)	1p/19 codel		0.941916005
+1	130	20	774T1	tumor	1	NEURAL	Classical_3	2015-03-23		2016-10-04	1	652	643	M	66		I	IV	Glioblastoma	O	O	X				missense(T277I)													0.812694124
+9	131	21	485T1	tumor	1	MESENCHYMAL	Mesenchymal_3	2013-07-10	2014-09-12	2014-09-12	1	429	28	M	51	57	R	IV	Glioblastoma	O	O	X				missense(M134T)		missense(E286G)			frameshift(2284-)		missense(M134T)	missense(E286G)					0.599106849
+10	131	22	497T	tumor	1	CLASSICAL	Classical_3	2014-06-07	2014-11-09	2014-08-25	1	155	44	F	65		I	IV	Glioblastoma	O	O	X				missense(Y177C)													0.911900617
+8	128	23	503T	tumor	1	MESENCHYMAL	Classical_3	2014-06-10	2015-11-11	2014-09-04	1	519	497	M	69		I	IV	Glioblastoma	X	O	X			missense(E542Q)		frameshift(860-)				frameshift(798-);frameshift(1772-);stop_gained(R2258*)	missense(E542Q)							0.779645045
+11	128	24	508T	tumor	1	CLASSICAL	Classical_3	2014-05-30		2015-10-12	1	600	208	F	64		I	IV	Glioblastoma	O	O	X																	0.97641279
+7	128	25	529T	tumor	2	PRONEURAL	Proneural_3	2010-05-10	2015-03-03	2014-11-19	1	1758	83	F	71		R	III	Anaplastic_oligoastrocytoma	O	O	X					frameshift(572-);frameshift(576-)												0.994107203
+8	130	26	534T	tumor	1	CLASSICAL	Classical_3	2014-07-28	2015-08-11	2015-06-02	1	379	88	F	38		I	IV	Glioblastoma	O	O						frameshift(777-)				frameshift(142-);frameshift(1379-)							EGFRvIII	0.813642987
+11	127	27	542T	tumor	1	MESENCHYMAL	Mesenchymal_3	2011-07-24		2017-09-24	0	2254	1138	M	64		Secondary	IV	Glioblastoma	O	O	X				missense(G132S)			missense(C636W)		frameshift(2426-)		missense(G132S)						0.726408622
+7	127	28	549T1	tumor	2	NEURAL	Proneural_3	2014-08-18		2017-08-08	0	1086	1084	M	52		I	IV	Glioblastoma	O	O							missense(R273C)		frameshift(326-);missense(R132H)				missense(R273C)		missense(R132H)			0.710451137
+10	127	29	569T	tumor	2	MESENCHYMAL	Classical_3	2014-08-12	2015-01-25	2015-01-21	1	166	142	F	72		I	IV	Glioblastoma	O	O	X					frameshift(696-)	missense(R283C);missense(R273C);missense(R267Q)	missense(G796S);missense(R962C)		missense(R125H);stop_gained(R1968*)			missense(R283C);missense(R273C)					0.872694623
+2	128	30	527T2	tumor	2	PRONEURAL	Proneural_3	2012-10-16		2017-07-31	0	1749	1097	M	28		I	III	Anaplastic_oligodendroglioma	X	O	X								missense(R132H)						missense(R132H)	1p/19 codel		0.928845753
+9	129	31	586T	tumor	2	NEURAL	Proneural_3	2014-09-28		2016-12-06	1	843	390	F	34		I	IV	Glioblastoma	O	O	Irinotecan,Bevacizumab						missense(R158G)											0.874866901
+8	127	32	680T	tumor	2	MESENCHYMAL	Classical_3	2006-09-25	2016-07-18	2015-10-29	1	3584	2	M	47		R	IV	Glioblastoma	O	O							missense(G266R)						missense(G266R)					0.727422137
+11	129	33	775T	tumor	1	MESENCHYMAL	Mesenchymal_3	2015-03-19	2016-02-27	2016-02-27	1	345	329	F	59		I	IV	Glioblastoma	O	O										frameshift(350-)								0.670347062
+8	131	34	593T	tumor	1	MESENCHYMAL	Mesenchymal_3	2014-09-01		2016-06-28	1	720	88	F	40		I	IV	Glioblastoma	O	O	Everlolimus					frameshift(481-)	missense(R248Q)						missense(R248Q)					0.625411078
+7	130	35	977T	tumor	1	MESENCHYMAL	Mesenchymal_3	2015-05-07		2016-12-27	1	829	215	F	49		R	II	Chordoid_glioma_of_the_third_ventricle	X	O	X																	0.762205374
+6	128	36	574T	tumor	1	CLASSICAL	Classical_3	2014-07-09		2017-11-28	0	1238	1168	F	57		I	IV	Glioblastoma	O	O	X																	0.892492306
+3	131	37	608T	tumor	1	NEURAL	Classical_3	2014-10-12		2015-11-16	0	400	343	M	37		I	IV	Glioblastoma	X	O	X						missense(P13H)	missense(R108K)						missense(R108K)			EGFRvIII	0.803838739
+5	131	38	458T	tumor	1	PRONEURAL	Proneural_3	2014-05-07		2016-05-10	1	883	284	M	60		I	IV	Glioblastoma	O	O	Irinotecan,Bevacizumab			frameshift(56-)				missense(S645C)		frameshift(80-)								0.795280907
+3	128	586N	586N	normal																O	O	X																	
+1	127	655N	655N	normal																O	O	PCV																	
+2	129	753N	753N	normal																X	X	X																	
+5	130	608N	608N	normal																X	O	X																	

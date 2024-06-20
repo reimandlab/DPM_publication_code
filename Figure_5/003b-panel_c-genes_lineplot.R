@@ -1,4 +1,3 @@
-# Alec Bahcheli
 # visualize a dot-plot / line-plot comparing DPM and Brown's method P-values
 
 library(optparse)
@@ -10,9 +9,6 @@ library(ggrepel)
 
 # options list for parser options
 option_list <- list(
-    make_option(c("-a","--figure_stats_file"), type="character", default=NULL,
-            help="",
-            dest="figure_stats_file"),
     make_option(c("-b","--figure_data_file"), type="character", default=NULL,
             help="",
             dest="figure_data_file"),

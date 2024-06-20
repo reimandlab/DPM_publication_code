@@ -1,5 +1,4 @@
-# DPM: Directional integration and pathway enrichment analysis for multi-omics data 
-## Figure 3. Directional integration of transcriptomics data from functional experiments of HOXA10-AS lncRNA in GBM cells. 
+# Figure 3 Analyses
 
 ## Overview
 
@@ -13,6 +12,9 @@ We analysed the genes and pathways prioritised by directional integration of tra
     |- CCDS_current.txt # dataset of protein-coding genes, downloaded January 16 2023
     |- 'Census_allWed Jan 18 16_45_05 2023.tsv' # cancer genes of the COSMIC Cancer Gene Census database, downloaded January 18 2023
     |- hsapiens.GO_BP_REACTOME.name.gmt # gmt file of GO biological processes and molecular pathways of Reactome, downloaded March 27 2023
+    |- hoxa10_fcs.csv # fcs of the HOXA10-AS lncRNA KD and OE experiments
+    |- hoxa10_pvals.csv # p-values of the HOXA10-AS lncRNA KD and OE experiments
+    |- panelE_Rdata.Rdata # enrichment map data from the two methods
 ```
 
 ## Reproducibility
@@ -21,19 +23,8 @@ Run the analysis sequentially:
 
 ``` bash
 Rscript 001_gene_scatterplot_panel_b.R
-Rscript 002a-dotplots_panel_c.py
-Rscript 002b_dotplots_panel_c.R
+python 002a-dotplots_panel_c.py
 Rscript 003_enrichment_map_panel_e.R
 Rscript 004_venn_diagram_panel_d.R
 Rscript 005_dot_plot_panel_f.R
-```
-
-The source code was developed in R version 4.3.1. The following package version are used:
-
-``` bash
-eulerr v7.0.2
-ActivePathways v2.0.3
-dplyr v1.1.2
-data.table v1.14.8
-ggplot2 v3.4.2 
 ```

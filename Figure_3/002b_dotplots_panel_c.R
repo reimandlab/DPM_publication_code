@@ -1,4 +1,3 @@
-# Alec Bahcheli
 # visualize a dot-plot comparing KD and OE genes P-values and FC
 
 library(optparse)
@@ -8,9 +7,6 @@ library(forcats)
 
 # options list for parser options
 option_list <- list(
-    make_option(c("-a","--figure_stats_file"), type="character", default=NULL,
-            help="",
-            dest="figure_stats_file"),
     make_option(c("-b","--figure_data_file"), type="character", default=NULL,
             help="",
             dest="figure_data_file"),
@@ -75,11 +71,6 @@ fc_limit = 2
 
 # convert
 input_df$pvalue = -log10(input_df$pvalue)
-
-input_df$logfc = -log2(input_df$fc)
-input_df$logfc[input_df$logfc > fc_limit] = fc_limit
-input_df$logfc[input_df$logfc < -fc_limit] = -fc_limit
-
 
 # subset to genes of interest
 input_df = input_df[input_df$gene %in% goi,]

@@ -1,4 +1,3 @@
-# Alec Bahcheli
 # create a dot-plot / line-plot comparing the p-values of DPM and Brown's methods
 
 import sys, getopt, time, os, subprocess
@@ -43,7 +42,7 @@ def main():
 
 if __name__ == "__main__":
     # r environment
-    rscript = "~/Rscript"
+    rscript = "Rscript"
 
     cutoff = 0.05
 
@@ -58,17 +57,21 @@ if __name__ == "__main__":
         # file of merged pvalues using DPM and Brown's methods
         if opt in ("--merged_pvalues_file"):
             merged_pvalues_file = str(arg)
+            merged_pvalues_file = '~/input_data/intermediate_files/figure5_merged_pvalues.tsv'
 
         # script to create figure
         if opt in ("--figure_script"):
             figure_script = str(arg)
+            figure_script = '~/003b-panel_c-genes_lineplot.R'
 
         # file to save figure data
         if opt in ("--figure_data_file"):
             figure_data_file = str(arg)
+            figure_data_file = '~/input_data/intermediate_files/figure5_lineplot.tsv'
         # file to save figure
         if opt in ("--figure_file"):
             figure_file = str(arg)
+            figure_file = '~/figure5_lineplot.pdf'
 
     main()
 

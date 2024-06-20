@@ -1,4 +1,3 @@
-# Alec Bahcheli
 # visualize the venn diagrams for the gene overlap between the different sources
 
 library(optparse)
@@ -9,9 +8,6 @@ library(eulerr)
 
 # options list for parser options
 option_list <- list(
-    make_option(c("-a","--figure_stats_file"), type="character", default=NULL,
-            help="",
-            dest="figure_stats_file"),
     make_option(c("-b","--figure_data_file"), type="character", default=NULL,
             help="",
             dest="figure_data_file"),

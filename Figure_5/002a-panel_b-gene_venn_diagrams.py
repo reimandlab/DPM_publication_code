@@ -1,4 +1,3 @@
-# Alec Bahcheli
 # create venn diagrams for the overlap of differentially expressed genes, differentially methylated genes, and differentially expressed proteins
 
 import sys, getopt, time, os, subprocess
@@ -78,7 +77,7 @@ def main():
 
 if __name__ == "__main__":
     # r environment
-    rscript = "~/Rscript"
+    rscript = "Rscript"
 
     try:
         opts, args = getopt.getopt(sys.argv[1:],"",["combined_pval_file=", "combined_fc_file=", "figure_script=", "figure_data_file=", "figure_file=", "merged_fdr_file="])
@@ -90,19 +89,24 @@ if __name__ == "__main__":
         # file of P-values from each source
         if opt in ("--combined_pval_file"):
             combined_pval_file = str(arg)
+            combined_pval_file = '~/input_data/intermediate_files/figure5_pvals.tsv'
         # file of log2 fold changes from each source
         if opt in ("--combined_fc_file"):
             combined_fc_file = str(arg)
+            combined_fc_file = '~/input_data/intermediate_files/figure5_fcs.tsv'
 
         # script to create figure
         if opt in ("--figure_script"):
             figure_script = str(arg)
+            figure_script = '~/002b-panel_b-gene_venn_diagrams.R'
         # file to save figure data
         if opt in ("--figure_data_file"):
             figure_data_file = str(arg)
+            figure_data_file = '~/input_data/intermediate_files/figure5_gene_venn_diagrams.tsv'
         # file to save figure
         if opt in ("--figure_file"):
             figure_file = str(arg)
+            figure_file = '~/figure5_gene_venn_diagrams.pdf'
 
     main()
 

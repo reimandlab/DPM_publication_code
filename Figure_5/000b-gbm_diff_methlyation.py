@@ -1,4 +1,3 @@
-# Alec Bahcheli
 # perform differential methylation analysis on R132G mutant vs. non-mutant patients for protein-coding genes
 
 import sys, getopt, time, os, math
@@ -173,21 +172,22 @@ if __name__ == "__main__":
         sys.exit(2)
     for opt, arg in opts:
         # EPICv2.hg38.manifest.gencode.v41.tsv describing how the probes map to gene promoters
-        # epic_v2.txt
         if opt in ("--probe_file"):
             probe_file = str(arg)
+            probe_file = '~/input_data/EPICv2.hg38.manifest.gencode.v41.tsv'
         # tcga GBM illumina 450k methylation file containing the methylation data for probes
-        # tcga_methylation.txt
         if opt in ("--gene_methylation_file"):
             gene_methylation_file = str(arg)
+            gene_methylation_file = '~/input_data/tcga_gbm_methylation.tsv'
         # protein coding genes file annotated by HGNC
-        # hgnc_gene_annotations.tsv
         if opt in ("--protein_coding_file"):
             protein_coding_file = str(arg)
+            protein_coding_file = '~/input_data/hgnc_annotated.tsv'
 
         # output file for differentially methylated genes
         if opt in ("--degs_file"):
             degs_file = str(arg)
+            degs_file = '~/tcga_gbm_diff_methylation.tsv'
 
         if opt in ("--threads"):
             threads = int(arg)

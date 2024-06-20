@@ -1,2 +1,0 @@
-Glass clinical data table: clinical_surgeries
-Downloaded from: https://www.synapse.org/Synapse:syn17038081/tables/

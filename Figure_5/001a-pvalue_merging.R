@@ -1,4 +1,3 @@
-# Alec Bahcheli
 # merge P-values from different sources using directional and non-directional methods
 
 library(optparse)
@@ -48,6 +47,18 @@ plot_theme = function(...) {
     )
 }
 
+
+opt = list()
+opt$gene_expression_file = '~/input_data/intermediate_files/tcga_gbm_degs.tsv'
+opt$protein_expression_file = '~/input_data/intermediate_files/protein_degs.tsv'
+opt$methylation_file = '~/input_data/intermediate_files/tcga_gbm_methylation_degs.tsv'
+opt$combined_pval_file = '~/output_data/intermediate_files/figure5_pvals.tsv'
+opt$combined_fc_file = '~/output_data/intermediate_files/figure5_fcs.tsv'
+opt$merged_pvalues_file = '~/output_data/intermediate_files/figure5_merged_pvalues.tsv'
+
+
+
+
 # load the dfs
 gene_expression = read.csv(opt$gene_expression_file, sep='\t', row.names=1)
 protein_expression = read.csv(opt$protein_expression_file, sep='\t', row.names=1)
@@ -56,13 +67,6 @@ methylation = read.csv(opt$methylation_file, sep='\t', row.names=1)
 
 # Identify common row names across all data frames
 common_rows <- Reduce(intersect, list(rownames(gene_expression), rownames(protein_expression), rownames(methylation)))
-
-print(length(common_rows))
-
-
-# ap_merged1 <- inner_join(protein_de, rna_de, by="gene")
-# ap_merged <- inner_join(ap_merged1, methylation_de, by="gene")
-# head(ap_merged)
 
 # subset to common_rows
 gene_expression = gene_expression[common_rows,]

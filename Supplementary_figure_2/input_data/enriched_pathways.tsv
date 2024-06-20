@@ -1,0 +1,226 @@
+term_id	term_name	adjusted_p_val
+GO:0000070	mitotic sister chromatid segregation	3.18109331850857e-13
+GO:0000075	cell cycle checkpoint signaling	2.1120186542372e-07
+GO:0000086	G2/M transition of mitotic cell cycle	2.29161996056739e-06
+GO:0000226	microtubule cytoskeleton organization	5.19397869257824e-07
+GO:0000280	nuclear division	7.24221620522178e-16
+GO:0000819	sister chromatid segregation	4.42592803907765e-12
+GO:0000904	cell morphogenesis involved in differentiation	0.000237203914126199
+GO:0001503	ossification	2.61402371116636e-06
+GO:0001508	action potential	0.0223769898770003
+GO:0001525	angiogenesis	0.000787983501741247
+GO:0001568	blood vessel development	0.000631744370313316
+GO:0001649	osteoblast differentiation	0.0134681685724311
+GO:0001666	response to hypoxia	0.037089525232209
+GO:0001667	ameboidal-type cell migration	0.000727068559978951
+GO:0001701	in utero embryonic development	0.00745320102394078
+GO:0001934	positive regulation of protein phosphorylation	0.0417222612637136
+GO:0001944	vasculature development	5.83728422233268e-05
+GO:0006260	DNA replication	6.0832264368967e-08
+GO:0006261	DNA-templated DNA replication	2.61102307047232e-06
+GO:0006270	DNA replication initiation	0.0321817235299409
+GO:0006275	regulation of DNA replication	0.0412838542510511
+GO:0006281	DNA repair	2.87172611668319e-05
+GO:0006302	double-strand break repair	0.00339920418366846
+GO:0006511	ubiquitin-dependent protein catabolic process	0.000447063197101036
+GO:0006888	endoplasmic reticulum to Golgi vesicle-mediated transport	0.00115233932995026
+GO:0007019	microtubule depolymerization	0.0154778543547074
+GO:0007051	spindle organization	0.000656290801590821
+GO:0007052	mitotic spindle organization	1.15980068492142e-05
+GO:0007059	chromosome segregation	1.78181157592395e-13
+GO:0007062	sister chromatid cohesion	0.0243412547110095
+GO:0007064	mitotic sister chromatid cohesion	0.000124955907619894
+GO:0007088	regulation of mitotic nuclear division	3.51916371056915e-10
+GO:0007091	metaphase/anaphase transition of mitotic cell cycle	8.87462758667314e-06
+GO:0007093	mitotic cell cycle checkpoint signaling	1.77307340725579e-06
+GO:0007094	mitotic spindle assembly checkpoint signaling	4.2393116211184e-06
+GO:0007098	centrosome cycle	0.004020967461618
+GO:0007178	transmembrane receptor protein serine/threonine kinase signaling pathway	0.0349091298633413
+GO:0007264	small GTPase mediated signal transduction	0.00171923716321565
+GO:0007346	regulation of mitotic cell cycle	2.23581900506906e-12
+GO:0007409	axonogenesis	0.00288092506564653
+GO:0008608	attachment of spindle microtubules to kinetochore	5.31484332544168e-06
+GO:0008654	phospholipid biosynthetic process	0.0226264961884313
+GO:0010389	regulation of G2/M transition of mitotic cell cycle	0.00236540135800986
+GO:0010498	proteasomal protein catabolic process	3.51293202720673e-07
+GO:0010564	regulation of cell cycle process	2.36933533547381e-13
+GO:0010638	positive regulation of organelle organization	0.0497781379300959
+GO:0010639	negative regulation of organelle organization	3.75672181393765e-05
+GO:0010948	negative regulation of cell cycle process	1.08094898657789e-08
+GO:0010965	regulation of mitotic sister chromatid separation	1.04653819029794e-06
+GO:0010972	negative regulation of G2/M transition of mitotic cell cycle	0.0062829704270323
+GO:0010975	regulation of neuron projection development	0.015174514570945
+GO:0016055	Wnt signaling pathway	0.008881999874245
+GO:0016358	dendrite development	0.027523807982538
+GO:0018209	peptidyl-serine modification	0.0254927128296466
+GO:0019941	modification-dependent protein catabolic process	0.000667055237912131
+GO:0030071	regulation of mitotic metaphase/anaphase transition	1.02514320603404e-05
+GO:0030111	regulation of Wnt signaling pathway	0.027845933000637
+GO:0030198	extracellular matrix organization	0.000466681878125104
+GO:0030199	collagen fibril organization	0.000488517441024867
+GO:0030282	bone mineralization	0.00610937001184889
+GO:0030336	negative regulation of cell migration	0.0179854892255774
+GO:0030510	regulation of BMP signaling pathway	0.019004584271959
+GO:0031023	microtubule organizing center organization	0.00750300109101667
+GO:0031344	regulation of cell projection organization	0.000721455124018662
+GO:0031570	DNA integrity checkpoint signaling	0.0218916623212556
+GO:0031577	spindle checkpoint signaling	8.27054956060639e-06
+GO:0032392	DNA geometric change	0.00122825607931664
+GO:0032508	DNA duplex unwinding	0.0287380678501322
+GO:0032990	cell part morphogenesis	0.00182574441046633
+GO:0033002	muscle cell proliferation	0.023287235683066
+GO:0033044	regulation of chromosome organization	0.000300038443864469
+GO:0033045	regulation of sister chromatid segregation	0.000461685673716125
+GO:0033046	negative regulation of sister chromatid segregation	1.44975544925928e-06
+GO:0033047	regulation of mitotic sister chromatid segregation	3.02964497967974e-05
+GO:0033048	negative regulation of mitotic sister chromatid segregation	1.44975544925928e-06
+GO:0034330	cell junction organization	0.0132003524186945
+GO:0034501	protein localization to kinetochore	0.045696386813819
+GO:0035265	organ growth	0.00172003325905606
+GO:0036293	response to decreased oxygen levels	0.0189413726278314
+GO:0036294	cellular response to decreased oxygen levels	0.00205524577886199
+GO:0038065	collagen-activated signaling pathway	0.0317292286099675
+GO:0040013	negative regulation of locomotion	0.0010631534767702
+GO:0043009	chordate embryonic development	0.0327968678061693
+GO:0043062	extracellular structure organization	0.000509024840225363
+GO:0043161	proteasome-mediated ubiquitin-dependent protein catabolic process	6.09453408713397e-07
+GO:0043632	modification-dependent macromolecule catabolic process	0.00118071489359525
+GO:0044770	cell cycle phase transition	7.48700899041574e-13
+GO:0044772	mitotic cell cycle phase transition	4.32348403417546e-13
+GO:0044784	metaphase/anaphase transition of cell cycle	2.84993424440179e-05
+GO:0044818	mitotic G2/M transition checkpoint	0.00524423555134317
+GO:0044839	cell cycle G2/M phase transition	1.32169807311296e-05
+GO:0045132	meiotic chromosome segregation	0.00168098684592962
+GO:0045229	external encapsulating structure organization	0.000604919529518175
+GO:0045786	negative regulation of cell cycle	6.08843029708457e-09
+GO:0045787	positive regulation of cell cycle	6.35049914867157e-06
+GO:0045839	negative regulation of mitotic nuclear division	2.86339617474371e-07
+GO:0045841	negative regulation of mitotic metaphase/anaphase transition	3.59958373983588e-07
+GO:0045859	regulation of protein kinase activity	0.00107396021243043
+GO:0045930	negative regulation of mitotic cell cycle	1.24176349907298e-08
+GO:0045931	positive regulation of mitotic cell cycle	0.00442795560997093
+GO:0048144	fibroblast proliferation	0.00147683099091645
+GO:0048193	Golgi vesicle transport	0.00416911370268766
+GO:0048285	organelle fission	5.24239452385504e-16
+GO:0048514	blood vessel morphogenesis	0.000384525908913216
+GO:0048589	developmental growth	2.64201995656384e-07
+GO:0048667	cell morphogenesis involved in neuron differentiation	5.61067716401271e-05
+GO:0048729	tissue morphogenesis	0.0499152529407485
+GO:0048762	mesenchymal cell differentiation	0.0488922845689623
+GO:0048812	neuron projection morphogenesis	0.000344547133387165
+GO:0048858	cell projection morphogenesis	0.00320034110569081
+GO:0050000	chromosome localization	0.00136391350042238
+GO:0050680	negative regulation of epithelial cell proliferation	0.0377709658349033
+GO:0050767	regulation of neurogenesis	0.00172454502926938
+GO:0050803	regulation of synapse structure or activity	0.00678612195449737
+GO:0050807	regulation of synapse organization	0.00476072671790205
+GO:0050808	synapse organization	0.035947340490023
+GO:0051129	negative regulation of cellular component organization	9.07814339937952e-06
+GO:0051216	cartilage development	0.000779644413230873
+GO:0051225	spindle assembly	0.0147029565196434
+GO:0051276	chromosome organization	9.12316069846666e-09
+GO:0051301	cell division	2.19439988254165e-10
+GO:0051303	establishment of chromosome localization	0.0078641337993345
+GO:0051304	chromosome separation	6.32023287447874e-06
+GO:0051306	mitotic sister chromatid separation	5.54531861392688e-06
+GO:0051310	metaphase plate congression	0.0106343355735392
+GO:0051321	meiotic cell cycle	2.49454458235333e-06
+GO:0051347	positive regulation of transferase activity	0.0177460983169919
+GO:0051383	kinetochore organization	0.0276683230302291
+GO:0051640	organelle localization	1.96972954032132e-05
+GO:0051656	establishment of organelle localization	0.0006864049903523
+GO:0051668	localization within membrane	0.00826877876730474
+GO:0051783	regulation of nuclear division	1.3875671084499e-10
+GO:0051784	negative regulation of nuclear division	1.04656556188761e-07
+GO:0051960	regulation of nervous system development	0.0037994124911969
+GO:0051983	regulation of chromosome segregation	4.80290265678698e-06
+GO:0051985	negative regulation of chromosome segregation	5.23875148262771e-06
+GO:0060070	canonical Wnt signaling pathway	0.018090098433215
+GO:0060537	muscle tissue development	0.00753628411884191
+GO:0060828	regulation of canonical Wnt signaling pathway	0.0120982334350647
+GO:0061383	trabecula morphogenesis	0.0299399647052075
+GO:0061448	connective tissue development	0.000127419402763608
+GO:0061564	axon development	0.00621968603195449
+GO:0070482	response to oxygen levels	0.0012403227914325
+GO:0070848	response to growth factor	0.00025550960335358
+GO:0071103	DNA conformation change	0.0126595589511868
+GO:0071173	spindle assembly checkpoint signaling	4.2393116211184e-06
+GO:0071174	mitotic spindle checkpoint signaling	4.2393116211184e-06
+GO:0071363	cellular response to growth factor stimulus	7.62381715295766e-05
+GO:0071453	cellular response to oxygen levels	0.00168999930840926
+GO:0071456	cellular response to hypoxia	0.000671912864209686
+GO:0071604	transforming growth factor beta production	0.00877912664113768
+GO:0071634	regulation of transforming growth factor beta production	0.0160027443251326
+GO:0071786	endoplasmic reticulum tubular network organization	0.00180992363532739
+GO:0080135	regulation of cellular response to stress	0.005257937999025
+GO:0090068	positive regulation of cell cycle process	4.27546192894743e-06
+GO:0090092	regulation of transmembrane receptor protein serine/threonine kinase signaling pathway	0.0112544478119804
+GO:0090263	positive regulation of canonical Wnt signaling pathway	0.00231632407904877
+GO:0090287	regulation of cellular response to growth factor stimulus	0.0346915961844107
+GO:0090307	mitotic spindle assembly	0.0174989406617313
+GO:0098813	nuclear chromosome segregation	6.22950233302342e-14
+GO:0120035	regulation of plasma membrane bounded cell projection organization	0.000394386602290298
+GO:0120039	plasma membrane bounded cell projection morphogenesis	0.00192047355053994
+GO:0140013	meiotic nuclear division	4.88664427060777e-05
+GO:0140014	mitotic nuclear division	8.24097712945831e-17
+GO:0140694	non-membrane-bounded organelle assembly	0.0185685540008813
+GO:0198738	cell-cell signaling by wnt	0.0113581310519249
+GO:1901137	carbohydrate derivative biosynthetic process	0.036231066852829
+GO:1901987	regulation of cell cycle phase transition	4.79943503287078e-08
+GO:1901988	negative regulation of cell cycle phase transition	1.54836851041167e-07
+GO:1901990	regulation of mitotic cell cycle phase transition	6.3971671364352e-08
+GO:1901991	negative regulation of mitotic cell cycle phase transition	8.24302738076959e-07
+GO:1902099	regulation of metaphase/anaphase transition of cell cycle	3.35235432193071e-05
+GO:1902100	negative regulation of metaphase/anaphase transition of cell cycle	1.44975544925928e-06
+GO:1902749	regulation of cell cycle G2/M phase transition	0.0173496640371614
+GO:1902750	negative regulation of cell cycle G2/M phase transition	0.0124666430906927
+GO:1902850	microtubule cytoskeleton organization involved in mitosis	3.16511799466071e-06
+GO:1903046	meiotic cell cycle process	5.66412340081685e-05
+GO:1903083	protein localization to condensed chromosome	0.045696386813819
+GO:1905818	regulation of chromosome separation	1.65249553182534e-06
+GO:1905819	negative regulation of chromosome separation	5.23875148262771e-06
+GO:2000146	negative regulation of cell motility	0.0102441652860235
+GO:2000816	negative regulation of mitotic sister chromatid separation	1.44975544925928e-06
+GO:2001251	negative regulation of chromosome organization	5.27158532160295e-07
+REAC:R-HSA-113510	E2F mediated regulation of DNA replication	0.0163944481201075
+REAC:R-HSA-141424	Amplification of signal from the kinetochores	1.51654164668304e-07
+REAC:R-HSA-141444	Amplification  of signal from unattached  kinetochores via a MAD2  inhibitory signal	1.51654164668304e-07
+REAC:R-HSA-1442490	Collagen degradation	7.76853013244315e-05
+REAC:R-HSA-1474228	Degradation of the extracellular matrix	0.000343189726441168
+REAC:R-HSA-1474244	Extracellular matrix organization	1.08363635265527e-05
+REAC:R-HSA-1474290	Collagen formation	2.20512129393937e-05
+REAC:R-HSA-1640170	Cell Cycle	2.04076574582073e-12
+REAC:R-HSA-1650814	Collagen biosynthesis and modifying enzymes	3.91028035107084e-06
+REAC:R-HSA-176187	Activation of ATR in response to replication stress	0.00166767043457591
+REAC:R-HSA-194315	Signaling by Rho GTPases	4.83673233184963e-05
+REAC:R-HSA-199991	Membrane Trafficking	0.00969272230417669
+REAC:R-HSA-2022090	Assembly of collagen fibrils and other multimeric structures	0.0442941607828982
+REAC:R-HSA-216083	Integrin cell surface interactions	1.16006934297873e-07
+REAC:R-HSA-2467813	Separation of Sister Chromatids	0.000103539866952701
+REAC:R-HSA-2500257	Resolution of Sister Chromatid Cohesion	3.0552827257995e-07
+REAC:R-HSA-2555396	Mitotic Metaphase and Anaphase	5.48264697713381e-06
+REAC:R-HSA-3000170	Syndecan interactions	0.00864096361064056
+REAC:R-HSA-3000171	Non-integrin membrane-ECM interactions	0.0273804254290125
+REAC:R-HSA-3000178	ECM proteoglycans	8.33553413768173e-05
+REAC:R-HSA-3700989	Transcriptional Regulation by TP53	0.00996839291346401
+REAC:R-HSA-375165	NCAM signaling for neurite out-growth	0.000286981958107659
+REAC:R-HSA-419037	NCAM1 interactions	0.000162358710814461
+REAC:R-HSA-453279	Mitotic G1 phase and G1/S transition	0.0111701563198893
+REAC:R-HSA-5653656	Vesicle-mediated transport	0.005026428897392
+REAC:R-HSA-5663220	RHO GTPases Activate Formins	0.000150189614000322
+REAC:R-HSA-68877	Mitotic Prometaphase	9.14108517552249e-08
+REAC:R-HSA-68882	Mitotic Anaphase	5.30259718465798e-06
+REAC:R-HSA-68886	M Phase	0.00052617075274176
+REAC:R-HSA-69205	G1/S-Specific Transcription	0.0372018410833408
+REAC:R-HSA-69278	Cell Cycle, Mitotic	6.57041531339369e-10
+REAC:R-HSA-69481	G2/M Checkpoints	0.0389376709009555
+REAC:R-HSA-69618	Mitotic Spindle Checkpoint	8.67677578156051e-09
+REAC:R-HSA-69620	Cell Cycle Checkpoints	1.51449328242423e-12
+REAC:R-HSA-8873719	RAB geranylgeranylation	0.00545273982635438
+REAC:R-HSA-8875878	MET promotes cell motility	0.0156610658332276
+REAC:R-HSA-8948216	Collagen chain trimerization	7.60649477217789e-06
+REAC:R-HSA-9006936	Signaling by TGFB family members	0.0406377609753326
+REAC:R-HSA-9012999	RHO GTPase cycle	0.000865749731982102
+REAC:R-HSA-9648025	EML4 and NUDC in mitotic spindle formation	3.38799992632872e-05
+REAC:R-HSA-9709603	Impaired BRCA2 binding to PALB2	0.047126286984563
+REAC:R-HSA-9716542	Signaling by Rho GTPases, Miro GTPases and RHOBTB3	7.5181511131012e-05

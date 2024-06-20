@@ -1,4 +1,3 @@
-# Alec Bahcheli
 # perform differential gene expression analysis on the R132G mutant vs. non-mutant patients for protein-coding genes
 
 import sys, getopt, time, os, math
@@ -61,20 +60,14 @@ def main():
     exp_df = pd.read_csv(gene_expression_file, sep='\t', index_col=0)
     exp_df.columns = list(map(lambda x: "-".join(x.split("-")[:3]), exp_df.columns))
     exp_df = exp_df.loc[np.invert(exp_df.index.duplicated()),:]
-    
-    print(exp_df.shape)
 
     # remove R132G
     exp_df = exp_df.loc[:,exp_df.columns != "TCGA-06-0221"]
     exp_df = exp_df.loc[:,exp_df.columns != "TCGA-12-0818"]
-    
-    print(exp_df.shape)
 
     # subset to protein-coding genes
     protein_coding_arr = protein_coding_genes_arr(protein_coding_file)
     exp_df = exp_df.loc[np.isin(exp_df.index, protein_coding_arr),:]
-
-    print(exp_df.shape)
     
     # subset to mutant and wt dfs
     mask = np.isin(exp_df.columns, mut_patients)
@@ -126,17 +119,18 @@ if __name__ == "__main__":
         sys.exit(2)
     for opt, arg in opts:
         # tcga GBM expression file (counts not TPM)
-        # tcga_gbm_counts.txt
         if opt in ("--gene_expression_file"):
             gene_expression_file = str(arg)
+            gene_expression_file = '~/input_data/tcga_gbm_counts.tsv'
         # HGNC-annotated file to identify protein-coding genes
-        # hgnc_gene_annotations.tsv
         if opt in ("--protein_coding_file"):
             protein_coding_file = str(arg)
+            protein_coding_file = '~/input_data/hgnc_annotated.tsv'
 
         # path to an output file
         if opt in ("--degs_file"):
             degs_file = str(arg)
+            degs_file = '~/tcga_gbm_degs.tsv'
             
         if opt in ("--threads"):
             threads = int(arg)
