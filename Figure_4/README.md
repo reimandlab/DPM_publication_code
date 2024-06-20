@@ -37,4 +37,4 @@ Rscript 005_venn_diagram_panel_f.R
 Rscript 006_dot_plot_panel_h.R
 ```
 
-The Panel D script to create the Kaplan-Meier plots can be found in `000_survival_analysis.R` lines 148 to 160
+The Panel D script to create the Kaplan-Meier plots can be found in `000_survival_analysis.R` lines 148 to 160.
