@@ -1,4 +1,6 @@
-# Figure 4 Analyses
+# DPM: Directional integration and pathway enrichment analysis for multi-omics data 
+
+## Figure 4. Integrating ovarian cancer transcriptomes and proteomes with patient survival information for pathway and biomarker analyses.
 
 ## Overview
 
